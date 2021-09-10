@@ -5,10 +5,10 @@ public class TheftCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Principle Amount:")
+        System.out.print("Principle Amount:");
         int principalAmount = input.nextInt();
 
-        System.out.print("Interest Rate:")
+        System.out.print("Interest Rate:");
         double rate = input.nextDouble();
 
         System.out.print("Number of Years:");
