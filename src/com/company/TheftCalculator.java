@@ -17,7 +17,7 @@ public class TheftCalculator {
         System.out.print("What is the number of times the interest is compounded per year? ");
         int n = input.nextInt();
 
-        double A = principalAmount*Math.pow(1+((rate*0.01)/n),n*year);
+        double A = principalAmount*Math.pow(1+((rate*.01)/n),n*year);
         System.out.printf("$%d invested at %.1f%% for %d years compounded %d times per year is $%.2f.\n",
             principalAmount, rate, year, n, A);
 
