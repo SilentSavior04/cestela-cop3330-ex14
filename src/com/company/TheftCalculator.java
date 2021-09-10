@@ -1,18 +1,17 @@
 package com.company;
 import java.util.Scanner;
-
 public class TheftCalculator {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("What is the principal amount? ");
+        System.out.print("Principle Amount:")
         int principalAmount = input.nextInt();
 
-        System.out.print("What is the rate? ");
+        System.out.print("Interest Rate:")
         double rate = input.nextDouble();
 
-        System.out.print("What is the number of years? ");
+        System.out.print("Number of Years:");
         int year = input.nextInt();
 
         System.out.print("What is the number of times the interest is compounded per year? ");
